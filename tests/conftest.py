@@ -16,7 +16,8 @@ def random_email_generator():
 def driver():
     driver = webdriver.Chrome()
     driver.maximize_window()
-    return driver
+    yield driver
+    driver.quit()
 
 @pytest.fixture
 def registration_dict(random_email_generator):
