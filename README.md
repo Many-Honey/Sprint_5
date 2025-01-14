@@ -25,4 +25,4 @@
     - `test_go_to_user_account_by_user_account_link_from_main_page` - переход по клику на «Личный кабинет»
     - `test_go_to_burger_constructor_by_constructor_link_button` - переход на главную страницу по клику на «Конструктор»
     - `test_go_to_burger_constructor_by_stellar_burgers_logo` - переход на главную страницу по клику на логотип Stellar Burgers
-    - `test_logout_from_user_account` - выход из аккаунта по кнопке «Выйти» в личном кабинете
+    - `test_logout_from_user_account` - выход из аккаунта по кнопке «Выйти» в личном кабинете.
